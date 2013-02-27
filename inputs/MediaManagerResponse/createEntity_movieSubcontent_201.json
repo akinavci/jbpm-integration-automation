@@ -1,0 +1,61 @@
+{
+	"headers" : {
+		"Content-Type" : "application/json",
+		"Location" : "/api/types/movieSubcontent/entities/511907e65bfb129a4e000000",
+		"X-Version-Location" : "/api/types/movieSubcontent/entities/511907e65bfb129a4e000000.511907e65bfb129a4e000001"
+	},
+	"body" :
+	{
+		"id" : "511907e65bfb129a4e000000",
+		"type" : "movieSubcontent",
+		"audioType" : null,
+		"screenFormat" : {
+			"en_US" : "EN EncReceiverType"
+		},
+		"resolution" : null,
+		"frameRate" : {
+			"en_US" : "EN frameRate"
+		},
+		"codec" : {
+			"en_US" : "EN codec"
+		},
+		"bitRate" : 64,
+		"duration" : null,
+		"isHDContent" : false,
+		"language" : null,
+		"subtitleLanguage" : null,
+		"dubbedLanguage" : null,
+		"rating" : null,
+		"audience" : null,
+		"encryptionReceiverType" : {
+			"en_US" : "EN EncReceiverType"
+		},
+		"isResumeEnabled" : true,
+		"trickModesRestricted" : null,
+		"masterSourceReference" : {
+			"en_US" : "http://127.0.0.1/"
+		},
+		"sourceUrl" : {
+			"en_US" : "http://127.0.0.1/"
+		},
+		"contentFileSize" : 1024,
+		"contentCheckSum" : null,
+		"propagationPriority" : 1,
+		"alternateId" : null,
+		"createdDate" : 1360674186000,
+		"createdBy" : 1,
+		"modifiedDate" : 1360674186000,
+		"modifiedBy" : 1,
+		"_links" :
+		[{
+				"href" : "/api/types/movieSubcontent/entities/511a3d8a5bfb129a4e000002",
+				"title" : "self",
+				"key" : "_self"
+			}
+		],
+		"versions" :
+		[
+			"511a3d8a5bfb129a4e000003"
+		]
+	}
+}

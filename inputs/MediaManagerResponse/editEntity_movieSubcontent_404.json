@@ -1,0 +1,8 @@
+{
+	"headers" : {
+		"Content-Type" : "application/json"
+	},
+	"body" : {
+		"message" : "Could not find requested (item) (ID X)"
+	}
+}
