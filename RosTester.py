@@ -58,11 +58,13 @@ class RosTester:
         
     def check_response(self, expectedResponseFile):
         strExpectedResponse = self._read_file_into_string(expectedResponseFile)
-        
+        self.logger.debug("Real Response: " + str(self.jsonRealResponse))
         if strExpectedResponse == str(self.jsonRealResponse['body']):
+			self.logger.debug (strExpectedResponse)
             self.logger.debug("PASSED")
             return "PASSED"
         else:
+			self.logger.debug (strExpectedResponse)
             self.logger.debug ("FAILED")
             raise AssertionError("Wrong Response")
             return "FAILED"
